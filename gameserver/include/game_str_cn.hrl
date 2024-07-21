@@ -1,0 +1,42 @@
+%% 字符串提示声明
+%% add by yueliangyou [2013-05-06]
+
+%% 仙盟相关
+-define(GUILD_STR_NOGUILD,"你还没有加入仙盟").
+-define(GUILD_STR_NOPLAYER,"该玩家已经被删除").
+-define(GUILD_STR_GUILDNOTFOUND,"仙盟不存在").
+-define(GUILD_STR_NOGUILDTOKEN,"你没有携带建盟令").
+-define(GUILD_STR_TOOLONG,"公告内容太长啦").
+-define(GUILD_STR_FORBIDDENWORD,"内容中含有敏感字符").
+-define(GUILD_STR_NOMEMBER,"未找到成员记录").
+-define(GUILD_STR_NOPERMIT,"你没有权限").
+-define(GUILD_STR_NOGOLD,"你携带的元宝不足，不能捐献").
+-define(GUILD_STR_NOITEM,"你携带的灵石不足，不能捐献").
+-define(GUILD_STR_WAIT,"正在处理中,请稍候 ...").
+-define(GUILD_STR_ISGUILDMEMBER,"你已经是仙盟成员").
+-define(GUILD_STR_APPLY," 申请加入仙盟").
+-define(GUILD_STR_GOLD,"元宝，").
+-define(GUILD_STR_ITEM,"个灵石，").
+-define(GUILD_STR_CONTRIBUTE0," 向仙盟捐献：").
+-define(GUILD_STR_CONTRIBUTE1,"让我们感谢他无私的奉献吧！").
+-define(GUILD_STR_ASSIGN0," 任命 ").
+-define(GUILD_STR_ASSIGN1," 为 '").
+-define(GUILD_STR_ASSIGNSELF,"不能任命自己").
+-define(GUILD_STR_RANKLIMIT,"该职位人数已经满").
+-define(GUILD_STR_TICK0," 被 ").
+-define(GUILD_STR_TICK1," 踢出仙盟").
+-define(GUILD_STR_TICKSELF,"不能踢出自己").
+-define(GUILD_STR_QUIT," 退出了仙盟").
+-define(GUILD_STR_APPLYSUC,"申请已发送").
+-define(GUILD_STR_DIFFCAMP,"阵营不同，不能申请加入").
+-define(GUILD_STR_ALREADYAPPLY,"你已经申请过该仙盟").
+-define(GUILD_STR_TOOMANYAPPLY,"该仙盟太多申请未处理，请申请其他仙盟").
+-define(GUILD_STR_NOAPPLY,"没有该玩家申请记录").
+-define(GUILD_STR_TOOMANYMEMBER,"成员到达上限，请提升仙盟等级").
+-define(GUILD_STR_OTHERGUILDMEMBER,"该玩家已经加入其他帮派").
+-define(GUILD_STR_ALLOW0," 批准 ").
+-define(GUILD_STR_ALLOW1," 加入仙盟").
+-define(GUILD_STR_REFUSE," 拒绝了你加入仙盟的请求").
+-define(GUILD_STR_LEVEL0,"仙盟等级提升至").
+-define(GUILD_STR_LEVEL1,"级").
+-define(GUILD_STR_MEMBERLIMIT,"仙盟人数已满").

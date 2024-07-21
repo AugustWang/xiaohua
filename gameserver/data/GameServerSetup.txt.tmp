@@ -1,0 +1,36 @@
+GameServerId=1
+
+#LSIP=登录服务器IP地址，默认=127.0.0.1
+LSIP=192.168.1.10
+
+#LSPort=登录服务器端口，默认=44802
+LSPort=64802
+
+#name=用户组服务器列表中看到的服务器名字，默认=本机IP
+name=服务器名
+
+#ListenToUserIP=面向用户的监听IP，默认=本机IP
+ListenToUserIP=127.0.0.1
+
+#ListenToUserPort=面向用户的监听端口，默认=6789
+ListenToUserPort=6789
+
+#Recommend = 是否官方推荐服务器 默认0
+Recommend=0
+
+#Hot = 官方设置火爆服务器程度 默认0
+Hot=0
+
+#MySql数据库配置
+MySQLHostAddress=192.168.1.10
+MySQLUserName=fx
+MySQLPassword=fx
+MySQLPort=3306
+MySQLDbName=fxservergamedata
+LogDbName=fxserverlog
+
+PublicDbHostAddress=192.168.0.10
+PublicDbUserName=fx
+PublicDbPassword=fx
+PublicDbPort=3306
+PublicDbName=fxpublicdb

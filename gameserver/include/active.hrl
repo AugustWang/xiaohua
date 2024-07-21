@@ -1,0 +1,2 @@
+-define( CreditAggressiveResetTime, 4*3600). %%
+-define( TimerInterval, 60). %%

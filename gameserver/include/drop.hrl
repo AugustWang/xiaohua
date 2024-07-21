@@ -1,0 +1,3 @@
+
+
+-define(DROP_RANDOM_VALUE, 10000).

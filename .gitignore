@@ -1,0 +1,14 @@
+.svn/
+**/.svn/
+**/*.swp
+**/*.beam
+**/*.dump
+**/ebin/*
+**/rel/pusher*
+**/log
+**/*@nohost
+.DS_Store
+**/.DS_Store
+**/.eunit
+**/rel/game_server
+**/Mnesia.*

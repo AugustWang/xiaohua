@@ -1,0 +1,14 @@
+<stringex>
+    <string id ="1">http://172.20.0.2/asjct/xiaohua-test_cjy/version.xml</string>
+	<string id ="2">检测更新中...</string>
+	<string id ="3">检测更新失败，错误代码 %d</string>
+	<string id ="4">检测资源成功！</string>
+	<string id ="5">有资源需要更新</string>
+	<string id ="6">有资源需要更新，大小 </string>
+	<string id ="7">解压中...</string>
+	<string id ="8">下载中...</string>
+	<string id ="9">读取配置文件...%.0f/%.0f</string>
+	<string id ="10">读取配置文件完毕</string>
+	<string id ="11">加载资源...</string>
+	<string id ="12">退出游戏</string>
+</stringex>

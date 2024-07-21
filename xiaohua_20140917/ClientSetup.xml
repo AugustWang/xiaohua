@@ -1,0 +1,14 @@
+<ClientSetup>
+    <LoginIP>172.20.1.197</LoginIP>
+    <LoginPort>5000</LoginPort>
+    <UploadUrl>http://photo.xh.szdiyibo.com/upload_photo.aspx</UploadUrl>
+    <DownloadUrl>http://photo.xh.szdiyibo.com/download_photo.aspx</DownloadUrl>
+    <SystemSet>11111110000000</SystemSet>
+    <CurSelectUserName>test</CurSelectUserName>
+    <UserAccount>
+        <UserName>test</UserName>
+        <UserPwd>123456</UserPwd>
+        <ServerID>7</ServerID>
+        <PlayerLocation>1</PlayerLocation>
+    </UserAccount>
+</ClientSetup>

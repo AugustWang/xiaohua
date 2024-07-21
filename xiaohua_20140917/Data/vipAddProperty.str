@@ -1,0 +1,4 @@
+﻿Sheet1^说明^id^type^per^value^vip属性加成配置
+属性参考游戏属性type值
+id为vip等级。
+（其实并不是等级，只是在vipFun文件中定义了等级和id对应关系，所以，相当于就是等级了，但是一定记得要在vipFun中对应相应的关系，vipFun中对于属性的定义为60）^

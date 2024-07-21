@@ -1,0 +1,90 @@
+# LoginServer ID
+LoginServerId=1
+
+#LoginServer监听客户端的端口
+ClientPort=54801
+
+#GSPort	LoginServer监听GameServer连接的端口
+GSPort=54802
+
+#Background553IP	just accept the connection from the below ip，此字段已经废弃
+Background553IP=127.0.0.1
+#Background553Port	LoginServer监听553后台连接的端口
+Background553Port=9001
+
+#远程MYSQL数据库地址
+MySQLHostAddress=localhost
+#MYSQL用户名
+MySQLUserName=jack
+#MYSQL登录密码
+MySQLPassword=jack2008
+#MYSQL数据库名称
+MySQLDbName=fxloginserver
+#日志数据库
+LogDbName=fxloginserverlog
+
+#平台码定义
+#-define( PLATFORM_TEST,	100 ).
+#-define( PLATFORM_553, 	101 ).
+#-define( PLATFORM_PP, 	102 ).
+#-define( PLATFORM_APPS,	103 ).
+#-define( PLATFORM_360, 	111 ).
+#-define( PLATFORM_553_android, 	108 ).
+#-define( PLATFORM_UC_android, 	110 ).
+#-define( PLATFORM_91_IOS, 	104 ).
+#-define( PLATFORM_91_android, 	109 ).
+#
+#platform test check flag 1:check,0:no check
+PlatformTestCheck=0
+#PlatformCount	支持的平台个数
+PlatformCount=7
+
+#553_ios平台
+PlatformID1=101
+#PlatformIPN	支持的第N个验证平台IP地址，此平台此值无用
+PlatformIP1=127.0.0.1
+#PlatformPortN	支持的第N个验证平台端口，此平台此值无用
+PlatformPort1=0
+
+#PP_ios平台
+PlatformID2=102
+#PlatformIPN	支持的第N个验证平台IP地址，此平台此值必须填写正确
+PlatformIP2=127.0.0.1
+#PlatformPortN	支持的第N个验证平台端口，此平台此值必须填写正确
+PlatformPort2=8080
+
+#测试平台
+PlatformID3=100
+#PlatformIPN	支持的第N个验证平台IP地址，此平台此值无用
+PlatformIP3=127.0.0.1
+#PlatformPortN	支持的第N个验证平台端口，此平台此值无用
+PlatformPort3=0
+
+#苹果商店平台
+PlatformID4=103
+#PlatformIPN	支持的第N个验证平台IP地址，此平台此值无用
+PlatformIP4=127.0.0.1
+#PlatformPortN	支持的第N个验证平台端口，此平台此值无用
+PlatformPort4=0
+
+#360android平台
+PlatformID5=111
+#PlatformIPN	支持的第N个验证平台IP地址，此平台此值无用
+PlatformIP5=127.0.0.1
+#PlatformPortN	支持的第N个验证平台端口，此平台此值无用
+PlatformPort5=0
+
+#553_android平台
+PlatformID6=108
+#PlatformIPN	支持的第N个验证平台IP地址，此平台此值无用
+PlatformIP6=127.0.0.1
+#PlatformPortN	支持的第N个验证平台端口，此平台此值无用
+PlatformPort6=0
+
+#UC_android平台
+PlatformID7=110
+#平台验证用户登录地址，必须正确填写，正式版地址：http://sdk.g.uc.cn/ss 测试版地址:http://sdk.test4.g.uc.cn/ss
+PlatformIP7=http://sdk.g.uc.cn/ss
+#平台验证用户登录地址是正式还是测试标签，=0表示正式，!=0表示测试，注意，此值不是端口
+PlatformPort7=0
+

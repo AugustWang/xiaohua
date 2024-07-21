@@ -1,0 +1,3 @@
+-define(CONNECT_TCP_OPTIONS, [binary, {packet, 0}, {active, false} ] ). 
+-define(TCP_OPTIONS,[binary, {packet, 0}, {active, once}, {send_timeout, 30000}, {send_timeout_close, true},{exit_on_close, true},{keepalive, true} ]).
+-define(LISTEN_TCP_OPTIONS,[binary, {packet, 0},{reuseaddr, true}, {keepalive, true}, {backlog, 30}, {active, false} ]).
